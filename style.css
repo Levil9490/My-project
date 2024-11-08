@@ -1,3 +1,9 @@
+:root {
+	--primaryColor: #fff;
+	--secondaryColor: #c5c5c5;
+	--textColor: #181818;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
