@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 :root {
 	--primaryColor: #fff;
 	--secondaryColor: #c5c5c5;
@@ -13,6 +15,9 @@
 
 body {
 	background-color: var(--secondaryColor);
+	font-family: "Poppins", serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 header {
