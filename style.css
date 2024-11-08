@@ -2,6 +2,7 @@
 	--primaryColor: #fff;
 	--secondaryColor: #c5c5c5;
 	--textColor: #181818;
+	--transitionTime: 0.3s;
 }
 
 * {
@@ -30,4 +31,25 @@ a {
 
 header h1 a {
 	color: var(--textColor);
+}
+
+header ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+header ul li {
+	padding-left: 35px;
+}
+
+header ul li a {
+	color: var(--textColor);
+	padding: 2px 0;
+	border-bottom: 2px solid transparent;
+	transition: var(--transitionTime);
+}
+
+header ul li a:hover {
+	border-bottom: 2px solid var(--textColor);
 }
