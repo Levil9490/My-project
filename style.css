@@ -23,3 +23,11 @@ header {
 	justify-content: space-around;
 	align-items: center;
 }
+
+a {
+	text-decoration: none;
+}
+
+header h1 a {
+	color: var(--textColor);
+}
