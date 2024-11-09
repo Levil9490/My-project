@@ -107,6 +107,7 @@ header ul li a:hover {
 #banner-subsection {
 	width: 100%;
 	padding: 50px;
+	background-color: var(--primaryColor);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
