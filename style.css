@@ -120,4 +120,5 @@ header ul li a:hover {
 
 #banner-subsection p {
 	width: var(--sectionTextElementSize);
+	padding-top: var(--sectionTextPadding);
 }
