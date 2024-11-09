@@ -102,3 +102,20 @@ header ul li a:hover {
 	width: var(--sectionTextElementSize);
 	padding: 20px 0;
 }
+
+#banner-subsection {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#banner-subsection h1 {
+	font-size: var(--h1FontSize);
+}
+
+#banner-subsection p {
+	width: var(--sectionTextElementSize);
+}
