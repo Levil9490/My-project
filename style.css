@@ -88,6 +88,7 @@ header ul li a:hover {
 	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
