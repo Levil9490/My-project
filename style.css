@@ -5,6 +5,7 @@
 	--secondaryColor: #e2e2e2;
 	--textColor: #303030;
 	--transitionTime: 0.3s;
+	--h1FontSize: 36px;
 }
 
 * {
@@ -93,7 +94,7 @@ header ul li a:hover {
 }
 
 #banner h1 {
-	font-size: 36px;
+	font-size: var(--h1FontSize);
 }
 
 #banner p {
