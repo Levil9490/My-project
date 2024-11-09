@@ -6,6 +6,7 @@
 	--textColor: #303030;
 	--transitionTime: 0.3s;
 	--h1FontSize: 36px;
+	--sectionTextElementSize: 70%;
 }
 
 * {
@@ -98,6 +99,6 @@ header ul li a:hover {
 }
 
 #banner p {
-	width: 70%;
+	width: var(--sectionTextElementSize);
 	padding: 20px 0;
 }
