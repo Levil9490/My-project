@@ -58,3 +58,7 @@ header ul li a {
 header ul li a:hover {
 	border-bottom: 2px solid var(--textColor);
 }
+
+#banner {
+	padding-top: 70px;
+}
